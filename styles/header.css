@@ -6,12 +6,15 @@
 
 .cabecalho-conteudo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    position: relative;
     min-height: 90px;
 }
 
 .logo-cabecalho {
+    position: absolute;
+    left: 20px;
     max-height: 50px;
 }
 
@@ -26,19 +29,27 @@
     color: #1b357e;
     font-weight: 600;
     font-size: 15px;
-    transition: color 0.3s ease;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
 .lista-nav a:hover,
 .lista-nav a.ativo {
     color: #1351d8;
+    transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
     .cabecalho-conteudo {
         flex-direction: column;
+        position: static;
         padding: 20px 0;
         gap: 15px;
+    }
+
+    .logo-cabecalho {
+        position: static;
+        margin-bottom: 5px;
     }
 
     .lista-nav {

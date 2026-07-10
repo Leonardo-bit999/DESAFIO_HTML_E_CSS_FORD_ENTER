@@ -30,6 +30,16 @@
     height: 28px;
 }
 
+.item-social img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.item-social img:hover {
+    transform: scale(1.2);
+}
+
 .logo-rodape {
     max-height: 40px;
 }
