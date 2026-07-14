@@ -1,9 +1,8 @@
-.container {
-    padding-top: 40px;
-    padding-bottom: 60px;
+.container-contato {
+    padding: 40px 20px 60px;
 }
 
-.layout-contato-duplo {
+.layout-contato {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +22,6 @@
 .img-destaque-contato {
     width: 100%;
     max-width: 500px;
-    height: auto;
     object-fit: contain;
 }
 
@@ -40,7 +38,6 @@
     font-weight: 700;
     color: #1b357e;
     margin-bottom: 20px;
-    text-align: left;
 }
 
 .formulario-contato {
@@ -110,7 +107,7 @@
 
 
 @media (max-width: 768px) {
-    .layout-contato-duplo {
+    .layout-contato {
         flex-direction: column;
         gap: 30px;
     }

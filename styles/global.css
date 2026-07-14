@@ -1,15 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-
-*,
-*::before,
-*::after {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-strong {
-    font-weight: 700;
-    color: #222222;
 }
 
 body {
@@ -19,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    line-height: 1.5;
 }
 
 main {
