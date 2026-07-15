@@ -27,7 +27,7 @@
     color: #1351d8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .descricao-destaque {
         text-align: justify;
         font-size: 14px;

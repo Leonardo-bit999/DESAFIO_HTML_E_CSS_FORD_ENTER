@@ -30,6 +30,7 @@
 }
 
 .lista-carros {
+    padding: 0 20px 0 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -40,6 +41,7 @@
 }
 
 .carro {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,6 +72,7 @@
     color: #555555;
     line-height: 1.4;
     flex: 1;
+    margin: 0;
 }
 
 .botao-primario {
@@ -91,11 +94,7 @@
     transform: scale(1.05);
 }
 
-.botao-primario:active {
-    transform: scale(0.98);
-}
-
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .lista-carros {
         flex-direction: column;
         align-items: center;
