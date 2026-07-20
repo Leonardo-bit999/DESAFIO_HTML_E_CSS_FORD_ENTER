@@ -9,7 +9,6 @@
 .video-destaque iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
-    /*height: auto;*/
     background-color: #000000;
     display: block;
 }
